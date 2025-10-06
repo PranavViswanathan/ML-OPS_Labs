@@ -1,0 +1,32 @@
+[2025-10-06T16:23:45.533+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: kmeans_dag.run_elbow_task manual__2025-10-06T16:23:42.178672+00:00 [queued]>
+[2025-10-06T16:23:45.537+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: kmeans_dag.run_elbow_task manual__2025-10-06T16:23:42.178672+00:00 [queued]>
+[2025-10-06T16:23:45.537+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-10-06T16:23:45.537+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2025-10-06T16:23:45.537+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-10-06T16:23:45.542+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): run_elbow_task> on 2025-10-06 16:23:42.178672+00:00
+[2025-10-06T16:23:45.545+0000] {standard_task_runner.py:55} INFO - Started process 3244 to run task
+[2025-10-06T16:23:45.547+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'kmeans_dag', 'run_elbow_task', 'manual__2025-10-06T16:23:42.178672+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/kmeans_dag.py', '--cfg-path', '/tmp/tmpzqcpcduh']
+[2025-10-06T16:23:45.548+0000] {standard_task_runner.py:83} INFO - Job 4: Subtask run_elbow_task
+[2025-10-06T16:23:45.571+0000] {task_command.py:388} INFO - Running <TaskInstance: kmeans_dag.run_elbow_task manual__2025-10-06T16:23:42.178672+00:00 [running]> on host 7ba1f4109bc7
+[2025-10-06T16:23:45.597+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=kmeans_dag
+AIRFLOW_CTX_TASK_ID=run_elbow_task
+AIRFLOW_CTX_EXECUTION_DATE=2025-10-06T16:23:42.178672+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-10-06T16:23:42.178672+00:00
+[2025-10-06T16:23:45.602+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/kmeans_dag.py", line 31, in task_elbow
+    df = pd.DataFrame(df_dict)
+NameError: name 'pd' is not defined
+[2025-10-06T16:23:45.605+0000] {taskinstance.py:1323} INFO - Marking task as UP_FOR_RETRY. dag_id=kmeans_dag, task_id=run_elbow_task, execution_date=20251006T162342, start_date=20251006T162345, end_date=20251006T162345
+[2025-10-06T16:23:45.609+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 4 for task run_elbow_task (name 'pd' is not defined; 3244)
+[2025-10-06T16:23:45.645+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2025-10-06T16:23:45.656+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

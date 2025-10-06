@@ -1,0 +1,60 @@
+[2025-10-06T16:36:38.871+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: kmeans_dag.load_dataset_task manual__2025-10-06T16:36:37.440032+00:00 [queued]>
+[2025-10-06T16:36:38.874+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: kmeans_dag.load_dataset_task manual__2025-10-06T16:36:37.440032+00:00 [queued]>
+[2025-10-06T16:36:38.874+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-10-06T16:36:38.874+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2025-10-06T16:36:38.874+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-10-06T16:36:38.879+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): load_dataset_task> on 2025-10-06 16:36:37.440032+00:00
+[2025-10-06T16:36:38.882+0000] {standard_task_runner.py:55} INFO - Started process 4689 to run task
+[2025-10-06T16:36:38.884+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'kmeans_dag', 'load_dataset_task', 'manual__2025-10-06T16:36:37.440032+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/kmeans_dag.py', '--cfg-path', '/tmp/tmp_rwaighv']
+[2025-10-06T16:36:38.885+0000] {standard_task_runner.py:83} INFO - Job 12: Subtask load_dataset_task
+[2025-10-06T16:36:38.907+0000] {task_command.py:388} INFO - Running <TaskInstance: kmeans_dag.load_dataset_task manual__2025-10-06T16:36:37.440032+00:00 [running]> on host 7ba1f4109bc7
+[2025-10-06T16:36:38.933+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=kmeans_dag
+AIRFLOW_CTX_TASK_ID=load_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2025-10-06T16:36:37.440032+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-10-06T16:36:37.440032+00:00
+[2025-10-06T16:36:38.934+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/sklearn/utils/deprecation.py:87: FutureWarning: Function load_boston is deprecated; `load_boston` is deprecated in 1.0 and will be removed in 1.2.
+
+    The Boston housing prices dataset has an ethical problem. You can refer to
+    the documentation of this function for further details.
+
+    The scikit-learn maintainers therefore strongly discourage the use of this
+    dataset unless the purpose of the code is to study and educate about
+    ethical issues in data science and machine learning.
+
+    In this special case, you can fetch the dataset from the original
+    source::
+
+        import pandas as pd
+        import numpy as np
+
+
+        data_url = "http://lib.stat.cmu.edu/datasets/boston"
+        raw_df = pd.read_csv(data_url, sep="\s+", skiprows=22, header=None)
+        data = np.hstack([raw_df.values[::2, :], raw_df.values[1::2, :2]])
+        target = raw_df.values[1::2, 2]
+
+    Alternative datasets include the California housing dataset (i.e.
+    :func:`~sklearn.datasets.fetch_california_housing`) and the Ames housing
+    dataset. You can load the datasets as follows::
+
+        from sklearn.datasets import fetch_california_housing
+        housing = fetch_california_housing()
+
+    for the California housing dataset and::
+
+        from sklearn.datasets import fetch_openml
+        housing = fetch_openml(name="house_prices", as_frame=True)
+
+    for the Ames housing dataset.
+    
+  warnings.warn(msg, category=FutureWarning)
+
+[2025-10-06T16:36:38.947+0000] {python.py:177} INFO - Done. Returned value was: None
+[2025-10-06T16:36:38.952+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=kmeans_dag, task_id=load_dataset_task, execution_date=20251006T163637, start_date=20251006T163638, end_date=20251006T163638
+[2025-10-06T16:36:38.985+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2025-10-06T16:36:38.997+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

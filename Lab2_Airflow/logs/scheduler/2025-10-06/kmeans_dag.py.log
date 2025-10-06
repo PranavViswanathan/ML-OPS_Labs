@@ -1,0 +1,391 @@
+[2025-10-06T16:20:21.921+0000] {processor.py:153} INFO - Started process (PID=2849) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:20:21.921+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:20:21.921+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:20:21.921+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:20:22.490+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:20:22.490+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-0r7psfvk because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:20:22.569+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:20:22.568+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:20:22.967+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:20:23.039+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:20:23.039+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:kmeans_dag
+[2025-10-06T16:20:23.042+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:20:23.042+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:kmeans_dag
+[2025-10-06T16:20:23.045+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:20:23.045+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:kmeans_dag
+[2025-10-06T16:20:23.045+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:20:23.045+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:20:23.049+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:20:23.049+0000] {dag.py:2711} INFO - Creating ORM DAG for kmeans_dag
+[2025-10-06T16:20:23.053+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:20:23.053+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:20:23.059+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 1.140 seconds
+[2025-10-06T16:20:53.228+0000] {processor.py:153} INFO - Started process (PID=2914) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:20:53.241+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:20:53.242+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:20:53.242+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:20:53.519+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:20:53.519+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-nzk8mmmc because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:20:53.603+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:20:53.603+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:20:53.991+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:20:54.000+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:20:53.999+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:20:54.009+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:20:54.009+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:20:54.016+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.789 seconds
+[2025-10-06T16:21:24.390+0000] {processor.py:153} INFO - Started process (PID=2959) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:21:24.391+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:21:24.392+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:21:24.392+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:21:24.665+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:21:24.665+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-zhbz_t8p because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:21:24.742+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:21:24.742+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:21:25.128+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:21:25.137+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:21:25.137+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:21:25.147+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:21:25.146+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:21:25.154+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.769 seconds
+[2025-10-06T16:21:55.432+0000] {processor.py:153} INFO - Started process (PID=3024) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:21:55.433+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:21:55.434+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:21:55.434+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:21:55.681+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:21:55.681+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-gejklo1t because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:21:55.761+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:21:55.761+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:21:56.182+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:21:56.192+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:21:56.192+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:21:56.202+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:21:56.202+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:21:56.209+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.780 seconds
+[2025-10-06T16:22:26.641+0000] {processor.py:153} INFO - Started process (PID=3089) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:22:26.642+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:22:26.643+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:22:26.643+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:22:26.919+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:22:26.919+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-pr2yyldi because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:22:26.996+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:22:26.996+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:22:27.401+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:22:27.426+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:22:27.425+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:22:27.435+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:22:27.435+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:22:27.442+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.803 seconds
+[2025-10-06T16:22:57.749+0000] {processor.py:153} INFO - Started process (PID=3154) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:22:57.750+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:22:57.751+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:22:57.751+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:22:58.054+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:22:58.054+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-q1ssf9y2 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:22:58.133+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:22:58.133+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:22:58.496+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:22:58.504+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:22:58.504+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:22:58.513+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:22:58.513+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:22:58.519+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.775 seconds
+[2025-10-06T16:23:28.814+0000] {processor.py:153} INFO - Started process (PID=3218) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:23:28.814+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:23:28.815+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:23:28.815+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:23:29.107+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:23:29.107+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-x5o02nek because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:23:29.183+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:23:29.182+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:23:29.538+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:23:29.547+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:23:29.547+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:23:29.556+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:23:29.556+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:23:29.562+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.751 seconds
+[2025-10-06T16:23:59.833+0000] {processor.py:153} INFO - Started process (PID=3263) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:23:59.834+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:23:59.834+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:23:59.834+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:24:00.084+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:24:00.084+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-qvro85ph because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:24:00.161+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:24:00.161+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:24:00.520+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:24:00.528+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:24:00.528+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:24:00.536+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:24:00.536+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:24:00.543+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.713 seconds
+[2025-10-06T16:24:31.109+0000] {processor.py:153} INFO - Started process (PID=3328) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:24:31.110+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:24:31.111+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:24:31.110+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:24:31.376+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:24:31.376+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-ylwo9gj_ because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:24:31.454+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:24:31.453+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:24:31.804+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:24:31.814+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:24:31.814+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:24:31.824+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:24:31.824+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:24:31.831+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.725 seconds
+[2025-10-06T16:25:02.376+0000] {processor.py:153} INFO - Started process (PID=3393) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:25:02.377+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:25:02.378+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:25:02.378+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:25:02.649+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:25:02.649+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-5kh91k8z because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:25:02.727+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:25:02.726+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:25:03.086+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:25:03.094+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:25:03.094+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:25:03.103+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:25:03.103+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:25:03.109+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.735 seconds
+[2025-10-06T16:25:33.660+0000] {processor.py:153} INFO - Started process (PID=3458) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:25:33.661+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:25:33.661+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:25:33.661+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:25:33.937+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:25:33.937+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-rmq2dw41 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:25:34.016+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:25:34.016+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:25:34.370+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:25:34.380+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:25:34.380+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:25:34.390+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:25:34.389+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:25:34.397+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.739 seconds
+[2025-10-06T16:26:04.902+0000] {processor.py:153} INFO - Started process (PID=3524) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:26:04.903+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:26:04.903+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:26:04.903+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:26:05.174+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:26:05.174+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-_5ei1osj because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:26:05.252+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:26:05.252+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:26:05.605+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:26:05.616+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:26:05.616+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:26:05.625+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:26:05.625+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:26:05.631+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.732 seconds
+[2025-10-06T16:26:36.159+0000] {processor.py:153} INFO - Started process (PID=3578) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:26:36.159+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:26:36.159+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:26:36.159+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:26:36.467+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:26:36.467+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-hbs6o9cy because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:26:36.549+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:26:36.549+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:26:36.965+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:26:36.975+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:26:36.975+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:26:36.984+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:26:36.984+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:26:36.992+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.835 seconds
+[2025-10-06T16:27:07.256+0000] {processor.py:153} INFO - Started process (PID=3634) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:27:07.258+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:27:07.258+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:27:07.258+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:27:07.597+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:27:07.597+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-c6chyoc0 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:27:07.678+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:27:07.677+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:27:08.049+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:27:08.058+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:27:08.058+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:27:08.067+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:27:08.067+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:27:08.075+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.822 seconds
+[2025-10-06T16:27:38.357+0000] {processor.py:153} INFO - Started process (PID=3699) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:27:38.358+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:27:38.359+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:27:38.359+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:27:38.598+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:27:38.598+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-35ljhp6d because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:27:38.673+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:27:38.673+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:27:39.009+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:27:39.017+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:27:39.017+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:27:39.026+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:27:39.026+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:27:39.032+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.678 seconds
+[2025-10-06T16:28:09.607+0000] {processor.py:153} INFO - Started process (PID=3764) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:28:09.609+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:28:09.611+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:28:09.611+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:28:09.912+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:28:09.912+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-s_5qyhta because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:28:09.990+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:28:09.990+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:28:10.359+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:28:10.369+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:28:10.369+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:28:10.379+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:28:10.379+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:28:10.385+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.782 seconds
+[2025-10-06T16:28:40.705+0000] {processor.py:153} INFO - Started process (PID=3829) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:28:40.706+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:28:40.707+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:28:40.707+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:28:40.959+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:28:40.959+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-uog7j_nq because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:28:41.050+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:28:41.049+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:28:41.474+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:28:41.484+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:28:41.484+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:28:41.493+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:28:41.492+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:28:41.499+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.797 seconds
+[2025-10-06T16:28:45.754+0000] {processor.py:153} INFO - Started process (PID=3833) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:28:45.755+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:28:45.756+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:28:45.756+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:28:46.055+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:28:46.055+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-2ylgz0qr because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:28:46.137+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:28:46.136+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:28:46.514+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:28:46.524+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:28:46.524+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:28:46.533+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:28:46.533+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:28:46.542+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.793 seconds
+[2025-10-06T16:29:10.208+0000] {processor.py:153} INFO - Started process (PID=41) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:29:10.208+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:29:10.209+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:29:10.208+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:29:10.364+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:29:10.363+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-owsbvgac because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:29:10.439+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:29:10.439+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:29:10.772+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:29:10.784+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:29:10.784+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:29:10.792+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:29:10.792+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:29:10.799+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.593 seconds
+[2025-10-06T16:29:41.462+0000] {processor.py:153} INFO - Started process (PID=107) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:29:41.463+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:29:41.463+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:29:41.463+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:29:41.717+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:29:41.717+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-w591haqo because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:29:41.796+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:29:41.796+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:29:42.111+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:29:42.123+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:29:42.123+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:29:42.133+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:29:42.133+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:29:42.140+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.680 seconds
+[2025-10-06T16:30:12.698+0000] {processor.py:153} INFO - Started process (PID=152) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:30:12.699+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:30:12.700+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:30:12.700+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:30:12.942+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:30:12.942+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-rj1rmf8h because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:30:13.020+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:30:13.020+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:30:13.344+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:30:13.354+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:30:13.354+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:30:13.364+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:30:13.364+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:30:13.371+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.676 seconds
+[2025-10-06T16:30:43.982+0000] {processor.py:153} INFO - Started process (PID=217) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:30:43.983+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:30:43.984+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:30:43.984+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:30:44.230+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:30:44.230+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-h113vp5h because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:30:44.305+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:30:44.305+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:30:44.578+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:30:44.587+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:30:44.587+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:30:44.596+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:30:44.596+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:30:44.603+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.624 seconds
+[2025-10-06T16:31:15.245+0000] {processor.py:153} INFO - Started process (PID=282) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:31:15.246+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:31:15.246+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:31:15.246+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:31:15.472+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:31:15.472+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-xsehovr7 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:31:15.548+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:31:15.548+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:31:15.822+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:31:15.831+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:31:15.831+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:31:15.839+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:31:15.839+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:31:15.845+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.603 seconds
+[2025-10-06T16:31:46.488+0000] {processor.py:153} INFO - Started process (PID=347) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:31:46.489+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:31:46.490+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:31:46.489+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:31:46.727+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:31:46.727+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-gec6vik7 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:31:46.805+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:31:46.805+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:31:47.135+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:31:47.145+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:31:47.145+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:31:47.155+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:31:47.155+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:31:47.162+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.677 seconds
+[2025-10-06T16:32:17.751+0000] {processor.py:153} INFO - Started process (PID=412) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:32:17.751+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:32:17.752+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:32:17.752+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:32:18.005+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:32:18.005+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-nqxt2tah because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:32:18.087+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:32:18.087+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:32:18.391+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:32:18.401+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:32:18.401+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:32:18.412+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:32:18.412+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:32:18.432+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.684 seconds
+[2025-10-06T16:32:48.989+0000] {processor.py:153} INFO - Started process (PID=477) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:32:48.990+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:32:48.990+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:32:48.990+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:32:49.247+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:32:49.247+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-0x_p4gj1 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:32:49.327+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:32:49.326+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:32:49.681+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:32:49.691+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:32:49.691+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:32:49.700+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:32:49.700+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:32:49.706+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.718 seconds
+[2025-10-06T16:33:20.309+0000] {processor.py:153} INFO - Started process (PID=542) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:33:20.310+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:33:20.310+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:33:20.310+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:33:20.611+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:33:20.611+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-1u5i93uc because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:33:20.691+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:33:20.691+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:33:21.030+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:33:21.039+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:33:21.039+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:33:21.048+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:33:21.048+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:33:21.055+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.748 seconds
+[2025-10-06T16:33:34.609+0000] {processor.py:153} INFO - Started process (PID=41) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:33:34.613+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:33:34.613+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:33:34.613+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:33:34.821+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:33:34.821+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-_nsooe3i because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:33:34.983+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:33:34.983+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:33:35.386+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:33:35.402+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:33:35.402+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:33:35.413+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:33:35.413+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:33:35.421+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.818 seconds
+[2025-10-06T16:34:05.682+0000] {processor.py:153} INFO - Started process (PID=107) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:34:05.682+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:34:05.683+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:34:05.683+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:34:05.910+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:34:05.910+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-qx12mptt because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:34:05.986+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:34:05.986+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:34:06.273+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:34:06.281+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:34:06.281+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:34:06.290+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:34:06.290+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:34:06.296+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.616 seconds
+[2025-10-06T16:34:36.933+0000] {processor.py:153} INFO - Started process (PID=161) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:34:36.933+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:34:36.934+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:34:36.934+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:34:37.242+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:34:37.242+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-puubadj5 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:34:37.325+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:34:37.325+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:34:37.674+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:34:37.687+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:34:37.687+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:34:37.716+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:34:37.716+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:34:37.725+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.795 seconds
+[2025-10-06T16:35:08.014+0000] {processor.py:153} INFO - Started process (PID=217) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:35:08.016+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:35:08.016+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:35:08.016+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:35:08.317+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:35:08.317+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-pxk3rxze because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:35:08.402+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:35:08.402+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:35:08.736+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:35:08.745+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:35:08.745+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:35:08.755+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:35:08.754+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:35:08.761+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.752 seconds
+[2025-10-06T16:35:39.260+0000] {processor.py:153} INFO - Started process (PID=282) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:35:39.260+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:35:39.261+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:35:39.261+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:35:39.513+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:35:39.513+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-2nnazlug because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:35:39.590+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:35:39.590+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:35:39.888+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:35:39.897+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:35:39.897+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:35:39.906+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:35:39.906+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:35:39.913+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.655 seconds
+[2025-10-06T16:36:10.522+0000] {processor.py:153} INFO - Started process (PID=347) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:36:10.523+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:36:10.523+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:10.523+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:36:10.772+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:10.772+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-17n84zes because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:36:10.849+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:10.849+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:36:11.146+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:36:11.155+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:11.155+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:36:11.164+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:11.164+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:36:11.170+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.651 seconds
+[2025-10-06T16:36:17.230+0000] {processor.py:153} INFO - Started process (PID=371) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:36:17.230+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:36:17.231+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:17.231+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:36:17.465+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:17.465+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-vx9x5oy0 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:36:17.546+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:17.546+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:36:17.836+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:36:17.845+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:17.845+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:36:17.854+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:17.854+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:36:17.861+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.633 seconds
+[2025-10-06T16:36:25.871+0000] {processor.py:153} INFO - Started process (PID=41) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:36:25.871+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:36:25.872+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:25.872+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:36:26.058+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:26.058+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-zeac8pxu because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:36:26.208+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:26.208+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:36:26.529+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:36:26.541+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:26.541+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:36:26.549+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:26.549+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:36:26.555+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.686 seconds
+[2025-10-06T16:36:57.074+0000] {processor.py:153} INFO - Started process (PID=107) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:36:57.075+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:36:57.075+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:57.075+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:36:57.310+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:57.310+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-fewucy02 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:36:57.386+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:57.386+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:36:57.683+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:36:57.691+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:57.691+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:36:57.699+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:36:57.699+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:36:57.705+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.635 seconds
+[2025-10-06T16:37:28.269+0000] {processor.py:153} INFO - Started process (PID=159) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:37:28.269+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:37:28.270+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:37:28.270+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:37:28.573+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:37:28.573+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-n48wee55 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:37:28.662+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:37:28.662+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:37:29.143+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:37:29.154+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:37:29.154+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:37:29.165+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:37:29.165+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:37:29.172+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.904 seconds
+[2025-10-06T16:37:59.449+0000] {processor.py:153} INFO - Started process (PID=217) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:37:59.450+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:37:59.450+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:37:59.450+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:37:59.730+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:37:59.730+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-nx9vd1qy because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:37:59.813+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:37:59.812+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:38:00.118+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:38:00.127+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:38:00.127+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:38:00.136+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:38:00.135+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:38:00.141+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.694 seconds
+[2025-10-06T16:38:30.828+0000] {processor.py:153} INFO - Started process (PID=282) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:38:30.829+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:38:30.830+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:38:30.830+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:38:31.297+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:38:31.297+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-3pt9nd3a because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:38:31.387+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:38:31.387+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:38:31.746+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:38:31.759+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:38:31.759+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:38:31.769+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:38:31.769+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:38:31.776+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.952 seconds
+[2025-10-06T16:39:02.358+0000] {processor.py:153} INFO - Started process (PID=347) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:39:02.363+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:39:02.369+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:39:02.368+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:39:02.988+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:39:02.988+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-8xuvefbf because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:39:03.072+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:39:03.072+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:39:03.435+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:39:03.633+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:39:03.633+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:39:03.652+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:39:03.652+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:39:03.664+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 1.318 seconds
+[2025-10-06T16:39:34.628+0000] {processor.py:153} INFO - Started process (PID=412) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:39:34.629+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:39:34.629+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:39:34.629+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:39:34.954+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:39:34.954+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-jq54eeao because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:39:35.036+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:39:35.036+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:39:35.347+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:39:35.356+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:39:35.356+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:39:35.364+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:39:35.364+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:39:35.371+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.746 seconds
+[2025-10-06T16:40:05.851+0000] {processor.py:153} INFO - Started process (PID=477) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:40:05.852+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:40:05.853+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:40:05.853+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:40:06.080+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:40:06.080+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-hl4xhpx_ because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:40:06.168+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:40:06.167+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:40:06.472+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:40:06.480+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:40:06.480+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:40:06.489+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:40:06.489+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:40:06.496+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.647 seconds
+[2025-10-06T16:40:37.034+0000] {processor.py:153} INFO - Started process (PID=542) to work on /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:40:37.035+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/kmeans_dag.py for tasks to queue
+[2025-10-06T16:40:37.036+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:40:37.036+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:40:37.303+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:40:37.303+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-b3mwh8mp because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-06T16:40:37.382+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:40:37.381+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2025-10-06T16:40:37.701+0000] {processor.py:753} INFO - DAG(s) dict_keys(['kmeans_dag']) retrieved from /opt/airflow/dags/kmeans_dag.py
+[2025-10-06T16:40:37.710+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:40:37.710+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-10-06T16:40:37.719+0000] {logging_mixin.py:137} INFO - [2025-10-06T16:40:37.719+0000] {dag.py:3441} INFO - Setting next_dagrun for kmeans_dag to None, run_after=None
+[2025-10-06T16:40:37.727+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/kmeans_dag.py took 0.696 seconds
