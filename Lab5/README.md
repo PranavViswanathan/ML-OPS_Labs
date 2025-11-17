@@ -1,4 +1,4 @@
-```
+
 # Neural Network Training with TensorBoard
 
 Simple neural network implementation using TensorFlow/Keras with TensorBoard logging for visualization.
@@ -50,4 +50,4 @@ tensorboard --logdir=logs/scalars
 ## Output
 
 Training logs are saved to \`logs/scalars/YYYYMMDD-HHMMSS/\` with timestamped directories for each run.
-```
+
